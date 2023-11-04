@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(225, 240, 140);
+}
+#text{
+    font-size: 23px;
+    color: green;
+   margin-left: 500px;
+   margin-top: 50px;
+}
+#caluator{
+    border:1px solid rgb(95,93,93);
+    border-radius: 5px;
+    width: 200px;
+    /* background-color: aqua; */
+    background-color: darkred;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+#display{
+    margin: 10px;
+    width: 80%;
+    font-size: 25px;
+}
+.button-container{
+   
+    justify-content: center;
+    flex: wrap;
+}
+.button{
+width: 40px;
+height: 40px;
+margin: 3px;
+}
+/* #color{
+    background-color: red;
+} */
+.button:hover{
+    background-color: rgb(128, 255, 0);
+    color:red;
+    font-size: 0.5rem;
+}

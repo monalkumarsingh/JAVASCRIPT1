@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: hotpink;
+}
+input{
+    font-size: 50px;
+    width: 50%;
+    margin-top: 10px;
+    border: 2px solid black;
+
+}
+button{
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.result{
+    color: blue;
+    font-size: 30px;
+}
+.newvalue{
+    color: blue;
+    font-size: 30px;
+}
+.valuestore{
+    color: blue;
+    font-size: 30px;
+}

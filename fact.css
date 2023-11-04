@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: hotpink;
+}
+input{
+    font-size: 30px;
+    margin-top: 10px;
+    border: 2px solid black;
+
+}
+button{
+    margin-top: 15px;
+    height: 35px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.result{
+    color: red;
+    font-size: 30px;
+}

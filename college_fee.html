@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIET COLLGE FEE CALCULATION</title>
+    <link rel="stylesheet" href="college_fee.css">
+</head>
+<body>
+    <h1>COLLGE FEE CALCULATION IN GIET COLLEGE</h1>
+    <input type="number" name="number1" id="number1" placeholder="Enter Your college fee"><br>
+    <input type="number" name="number2" id="number2" placeholder="Enter your  prevoius year college fee"><br>
+    <input type="number" name="number" id="number" placeholder="Enter the deposit money in  this year "><br>
+    
+    <button onclick="Fee()">CLICK HERE</button>
+    <div class="result">
+
+    </div>
+    <div class="fee">
+
+    </div>
+    <div class="fee1">
+
+    </div>
+    <div class="fee2">
+
+    </div>
+    <script>
+        function Fee()
+        {
+            var fee,current_fee;
+            fee=document.getElementById('number1').value;
+            var prevoius_fee=document.getElementById('number2').value;
+            var deposit_money=document.getElementById('number').value;
+            //deposit_money=document.getElementById('number1').value;
+            var total_fee=fee-(-prevoius_fee);
+            if(fee==deposit_money)
+            {
+document.getElementsByClassName('result')[0].innerHTML="Your college fee is =0"+ "  "+"You can apply the rsgistration form";
+            }
+         if(fee!=deposit_money){
+current_fee=total_fee-deposit_money;
+document.getElementsByClassName('fee')[0].innerHTML="Your remaing college fee is ="+"  "+current_fee;
+        }
+         if(current_fee>=15000) 
+        {
+            document.getElementsByClassName('fee1')[0].innerHTML="CAN NOT APPLY THE REGISTRATION FROM"+"\n"+"AFTER PAID FEE THEN APLLY REFGISTRATION FORM";
+        }  
+        }
+    </script>   
+</body>
+</html>

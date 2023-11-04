@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACTORIAL CALCULATION</title>
+    <link rel="stylesheet" href="fact.css">
+</head>
+<body>
+    <h1>FACTORIAL CALCULATION</h1>
+    <input type="number" name="number" id="number"><br>
+    <button onclick="factorial()">CLICK HERE</button>
+    <div class="result">
+
+    </div>
+    <script>
+        var i ,n,fact=1;
+       function factorial()
+        {
+           n=document.getElementById('number').value;
+        
+           for(i=1;i<=n;i++)
+           {
+            fact=fact*i;
+           } 
+           document.getElementsByClassName('result')[0].innerHTML="Factorial is"+"  "+fact;
+        
+        }
+    </script>
+</body>
+</html>

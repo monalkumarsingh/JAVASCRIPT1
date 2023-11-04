@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: hotpink;
+}
+h2{
+    text-transform: uppercase;
+    color:blue;
+}
+p{
+    text-transform: uppercase;
+    color:blue;
+}
+input{
+    font-size: 50px;
+    width: 50%;
+    margin-top: 10px;
+    border: 5px solid red;
+    border-radius: 20px;
+}
+button{
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.result{
+    color: blue;
+    font-size: 30px;
+}
+.newvalue{
+    color: blue;
+    font-size: 30px;
+}
+.valuestore{
+    color: blue;
+    font-size: 30px;
+}

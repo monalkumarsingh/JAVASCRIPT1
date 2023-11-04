@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT IN JAVA SCRIPT</title>
+</head>
+<body>
+    <script>
+        /*
+        let proudct={ // here empty object
+
+        };
+        console.log(proudct)
+        console.log(typeof(proudct)) // here output is object
+        */
+        let product={
+          company:'Mango',
+          price:881,
+         item_name: 'T-shirt',
+        
+        };
+      //  console.log(typeof (product));
+       // console.log(product); here all object all access
+       // here individuls product acces
+       /*
+       console.log(product.company);
+       console.log(product.price);
+       console.log(product.item_name);
+       // if we want to change the company then then
+       product.company='Monal sigh';
+       console.log(product.company);
+       console.log(product)
+       */
+       // antoher wat to acces object
+       /*
+       console.log(product['company']);
+       console.log(product['price']);
+       console.log(product['item_name']);
+       */
+       // delete the product
+
+       console.log(product);
+       delete product.company;// here   delete the product company
+       console.log(product)
+       delete product.price;// here delete the product price;
+       console.log(product);
+    </script>
+</body>
+</html>
